@@ -8,7 +8,7 @@ class Cat extends Animal {
         return "Meow";
     }
 
-    public void Move(){
+    public void move(){
         this.position += 5;
     }
     
