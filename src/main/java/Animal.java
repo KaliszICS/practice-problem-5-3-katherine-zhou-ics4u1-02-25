@@ -12,8 +12,7 @@ abstract class Animal{
         this.position = position;
     }
 
-    abstract String animalSound();
-    abstract void move();
+
 
     public String Sleep(){
         return "Zzz" ;
@@ -34,4 +33,8 @@ abstract class Animal{
     public int getPosition(){
         return this.position;
     }
+
+    abstract String animalSound();
+    abstract void move();
+
 }
